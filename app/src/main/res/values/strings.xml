@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Yet Another In Car Application</string>
+
+    <string name="yaica_init_txt">Yaica is initializing...</string>
+    <string name="yaica_exit_txt">Yaica is exiting...</string>
+    <string name="start_card_title_text_1">tell me...</string>
+    <string name="start_card_title_text_2">...which card to show</string>
+    <string name="start_card_info_title">info</string>
+    <string name="start_card_grid_title">shortcuts</string>
+    <string name="start_card_exit_title">exit</string>
+    <string name="info_card_battery_text">Battery level : </string>
+    <string name="info_card_location_text">Current location : </string>
+    <string name="grid_card_my_installed_apps_text">My installed apps</string>
+    <string name="tts_failed_to_initialize_title">Text To Speech error</string>
+    <string name="tts_failed_to_initialize_button_text">Ok</string>
+    <string name="tts_failed_to_initialize">Oops, Text To Speech fails to start, this app will now close after tapping on OK..</string>
+    <string name="exiting_yaica_dialog_title">Exiting?</string>
+    <string name="exiting_yaica_dialog_button_text_ok">Ok</string>
+    <string name="exiting_yaica_dialog_button_text_cancel">Cancel</string>
+    <string name="exit_yaica_text">Tap Ok to exit Yaica</string>
+    <string name="default_speedometer_text">0.0 km/h</string>
+    <string name="speedometer_dialog_title">Set maximum speed</string>
+    <string name="speedometer_dialog_cancel">Cancel</string>
+    <string name="speedometer_dialog_ok">Set speed</string>
+    <string name="speedometer_dialog_clear_message">Maximum speed setting cleared</string>
+    <string name="speedometer_dialog_clear_title">Attention</string>
+    <string name="speedometer_dialog_got_it">Got it!</string>
+    <string name="speedometer_default_text">Enter max speed here</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>

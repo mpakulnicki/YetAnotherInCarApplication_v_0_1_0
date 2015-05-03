@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/start_card_fragment_layout"
+    android:layout_width="match_parent"
+    android:background="@color/activity_background_color"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:id="@+id/yaica_start_card_anime_layout"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:id="@+id/start_card_title_text_layout"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:text="@string/start_card_title_text_1"
+                android:id="@+id/start_card_title_text_1"
+                android:layout_marginTop="20dp"
+                android:textSize="30sp"
+                android:textColor="@color/yaica_white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="@string/start_card_title_text_2"
+                android:id="@+id/start_card_title_text_2"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="30sp"
+                android:textColor="@color/yaica_white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:id="@+id/start_card_cards_text_layout"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:text="@string/start_card_info_title"
+                android:id="@+id/start_card_title_info"
+                android:layout_marginTop="20dp"
+                android:textSize="30sp"
+                android:textColor="@color/yaica_white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="@string/start_card_grid_title"
+                android:id="@+id/start_card_title_shortcuts"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="30sp"
+                android:textColor="@color/yaica_white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="@string/start_card_exit_title"
+                android:id="@+id/start_card_title_exit"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="30sp"
+                android:textColor="@color/yaica_white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/activity_background_color"
+    android:id="@+id/activity_yaica_core_prototype_main"
+    tools:context=".YaircaCorePrototypeMain">
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="I am main activity"-->
+        <!--android:id="@+id/info_card_title"-->
+        <!--android:textColor="@color/yaica_white"-->
+        <!--android:layout_marginTop="50dp"-->
+        <!--android:layout_marginLeft="50dp"-->
+        <!--/>-->
+
+</RelativeLayout>
